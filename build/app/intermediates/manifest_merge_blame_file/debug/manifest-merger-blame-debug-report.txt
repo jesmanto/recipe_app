@@ -23,7 +23,7 @@
 19    <application
 19-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:3:4-40:19
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d481b4719f34ec119768e958e701eaf6/core-1.1.0/AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/052b54b1b71c8c4129b0ecb471240cd0/core-1.5.0/AndroidManifest.xml:24:18-86
 21        android:debuggable="true"
 22        android:icon="@mipmap/ic_launcher"
 22-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:5:9-43
