@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jesse.recipe_app"
+4    android:versionCode="2"
+5    android:versionName="1.0.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml
+10    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:13:5-79
+12-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:13:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:14:5-67
+13-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:14:22-64
+14
+15    <application
+15-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:3:4-40:19
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/052b54b1b71c8c4129b0ecb471240cd0/core-1.5.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:5:9-43
+18        android:label="recipe_app" >
+18-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:4:9-35
+19        <activity
+19-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:6:9-34:20
+20            android:name="com.jesse.recipe_app.MainActivity"
+20-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:7:13-41
+21            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+21-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:10:13-163
+22            android:hardwareAccelerated="true"
+22-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:11:13-47
+23            android:launchMode="singleTop"
+23-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:8:13-43
+24            android:theme="@style/LaunchTheme"
+24-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:9:13-47
+25            android:windowSoftInputMode="adjustResize" >
+25-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:12:13-55
+26
+27            <!--
+28                 Specifies an Android theme to apply to this Activity as soon as
+29                 the Android process has started. This theme is visible to the user
+30                 while the Flutter UI initializes. After that, this theme continues
+31                 to determine the Window background behind the Flutter UI.
+32            -->
+33            <meta-data
+33-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:17:13-20:17
+34                android:name="io.flutter.embedding.android.NormalTheme"
+34-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:18:15-70
+35                android:resource="@style/NormalTheme" />
+35-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:19:15-52
+36            <!--
+37                 Displays an Android View that continues showing the launch screen
+38                 Drawable until Flutter paints its first frame, then this splash
+39                 screen fades out. A splash screen is useful to avoid any visual
+40                 gap between the end of Android's launch screen and the painting of
+41                 Flutter's first frame.
+42            -->
+43            <meta-data
+43-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:26:13-29:17
+44                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+44-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:27:15-79
+45                android:resource="@drawable/launch_background" />
+45-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:28:15-61
+46
+47            <intent-filter>
+47-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:30:13-33:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:31:17-68
+48-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:31:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:32:17-76
+50-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:32:27-74
+51            </intent-filter>
+52        </activity>
+53        <!--
+54             Don't delete the meta-data below.
+55             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+56        -->
+57        <meta-data
+57-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:37:9-39:33
+58            android:name="flutterEmbedding"
+58-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:38:13-44
+59            android:value="2" />
+59-->/Users/mac/Desktop/recipe_app/android/app/src/main/AndroidManifest.xml:39:13-30
+60
+61        <service
+61-->[:cloud_firestore] /Users/mac/Desktop/recipe_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[:cloud_firestore] /Users/mac/Desktop/recipe_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:8:18-89
+63            android:directBootAware="true"
+63-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+64            android:exported="false" >
+64-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:19:13-37
+65            <meta-data
+65-->[:cloud_firestore] /Users/mac/Desktop/recipe_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+66                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+66-->[:cloud_firestore] /Users/mac/Desktop/recipe_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:10:17-134
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[:cloud_firestore] /Users/mac/Desktop/recipe_app/build/cloud_firestore/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+68            <meta-data
+68-->[:firebase_core] /Users/mac/Desktop/recipe_app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+69                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+69-->[:firebase_core] /Users/mac/Desktop/recipe_app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[:firebase_core] /Users/mac/Desktop/recipe_app/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+72-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore:23.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/452d4e2c2702d5781ccdc7244bcfada8/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/182d559fc8f5b90b025f205266ad0e02/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/182d559fc8f5b90b025f205266ad0e02/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/182d559fc8f5b90b025f205266ad0e02/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/182d559fc8f5b90b025f205266ad0e02/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+80
+81        <provider
+81-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+82            android:name="com.google.firebase.provider.FirebaseInitProvider"
+82-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+83            android:authorities="com.jesse.recipe_app.firebaseinitprovider"
+83-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+85            android:exported="false"
+85-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+86            android:initOrder="100" />
+86-->[com.google.firebase:firebase-common:20.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2968a43bcfb0d0d0324a8da8cd8bf5e2/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bca6c35aaf5e106d2e94cb61e353e66b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bca6c35aaf5e106d2e94cb61e353e66b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bca6c35aaf5e106d2e94cb61e353e66b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+91    </application>
+92
+93</manifest>

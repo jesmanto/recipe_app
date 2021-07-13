@@ -2,7 +2,7 @@
     package="com.jesse.recipe_app">
    <application
         android:label="recipe_app"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher_recipe">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
